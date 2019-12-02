@@ -10,7 +10,7 @@ while(isNaN(age)){
 if (age<18){
     alert("You are not allowed to visit this website");
 }else
-    if (18<age && age<22) {
+    if (18<=age && age<=22) {
     if(confirm("Are you sure you want to continue?")){
         alert("Welcome, "+username);
     }
